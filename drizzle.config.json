@@ -1,0 +1,8 @@
+{
+    "schema": "./src/db/schema/*",
+    "out": "./drizzle",
+    "driver": "pg",
+    "dbCredentials": {
+        "connectionString": "postgres://root:root@localhost:5432/ecommerce"
+    }
+}
